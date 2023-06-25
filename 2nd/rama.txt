@@ -1,0 +1,8 @@
+this is the file that is moved from local machine to the newmachine ctreated by using file provisioner.
+
+syntax is =
+
+provisioner "file" {
+source = "./filename.txt"
+destination = "/tmp/filename.txt"
+
